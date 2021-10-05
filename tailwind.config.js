@@ -11,6 +11,9 @@ module.exports = {
         ...crimsonDark,
         ...amberDark,
       },
+      backgroundImage: {
+        grain: "url('https://grainy-gradients.vercel.app/noise.svg')",
+      },
     },
   },
   variants: {
