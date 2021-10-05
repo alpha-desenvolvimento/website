@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="h-screen pt-16 pb-20">
+    <section className="min-h-screen pt-16 pb-20">
       <div className="absolute z-0 h-full w-full">
         <div className="h-48 w-48 absolute top-0 filter blur-3xl">
           <div className="w-full h-full rounded-full absolute bg-gradient-to-br from-amber9 to-crimson9 backdrop-filter bg-blend-multiply" />
