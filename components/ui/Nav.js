@@ -15,7 +15,9 @@ export default function Nav() {
             Skip to content
           </a>
           <div className="peer-focus:text-transparent">
-            Alpha desenvolvimento
+            <Link passHref href="/">
+              <a>Alpha desenvolvimento</a>
+            </Link>
           </div>
         </div>
         <div className="flex gap-4">
