@@ -1,4 +1,4 @@
-const { mauveDark, crimsonDark, amberDark } = require("@radix-ui/colors");
+const { mauve, crimson, amber } = require("@radix-ui/colors");
 
 module.exports = {
   mode: "jit",
@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ...mauveDark,
-        ...crimsonDark,
-        ...amberDark,
+        ...mauve,
+        ...crimson,
+        ...amber,
       },
       backgroundImage: {
         grain: "url('https://grainy-gradients.vercel.app/noise.svg')",
