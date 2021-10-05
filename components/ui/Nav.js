@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <header className="px-6 sticky top-0 left-0 w-full h-12 z-20 bg-mauve1 bg-opacity-95 border-b border-mauve3">
+    <header className="px-6 sticky top-0 left-0 w-full h-12 z-20 bg-mauve1 bg-opacity-80 border-b border-mauve6">
       <nav className="flex items-center h-full relative justify-between">
         <div className="flex gap-2">
           <div className="h-6 w-6 relative">
@@ -15,7 +15,9 @@ export default function Nav() {
             Skip to content
           </a>
           <div className="peer-focus:text-transparent">
-            Alpha desenvolvimento
+            <Link passHref href="/">
+              <a>Alpha desenvolvimento</a>
+            </Link>
           </div>
         </div>
         <div className="flex gap-4">
